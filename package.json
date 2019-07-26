@@ -1,0 +1,33 @@
+{
+  "name": "vuex-guardian",
+  "version": "1.0.0",
+  "description": "My hunky-dory Nuxt.js project",
+  "author": "takepepe",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "codegen": "vuex-guardian",
+    "prettier": "prettier \"store/**/*.ts\" \"types/**/*.ts\" --write"
+  },
+  "dependencies": {
+    "@nuxt/typescript": "^2.8.1",
+    "@nuxtjs/axios": "^5.5.4",
+    "cross-env": "^5.2.0",
+    "express": "^4.17.1",
+    "nuxt": "^2.8.1",
+    "uuid": "^3.3.2",
+    "vuex": "git+https://github.com/takefumi-yoshii/vuex.git"
+  },
+  "devDependencies": {
+    "@types/uuid": "^3.4.5",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2",
+    "vuex-guardian": "^0.0.2"
+  }
+}

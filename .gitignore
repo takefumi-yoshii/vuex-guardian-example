@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+.nuxt
+.node-version
+*.log
+
+types/vuex/
