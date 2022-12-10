@@ -17,7 +17,7 @@
     "@nuxt/typescript": "^2.8.1",
     "@nuxtjs/axios": "^5.5.4",
     "cross-env": "^5.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nuxt": "^2.8.1",
     "uuid": "^3.3.2",
     "vuex": "git+https://github.com/takefumi-yoshii/vuex.git"
